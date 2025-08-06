@@ -1,6 +1,6 @@
 {
     "name": "@cristianmpx/tailwind-custom-select",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A implementation of react-custom-select styled with Tailwind Css",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -30,15 +30,14 @@
     "author": "Cristian Marin",
     "license": "MIT",
     "dependencies": {
-        "@cristianmpx/react-custom-select": "^1.0.17",
-        "gh-pages": "^6.3.0",
-        "tailwind-custom-select": "file:tailwind-custom-select-1.0.0.tgz"
+        "@cristianmpx/react-custom-select": "^1.0.17"
     },
     "peerDependencies": {
         "react": "^19.1.1",
         "react-dom": "^19.1.1"
     },
     "devDependencies": {
+        "gh-pages": "^6.3.0",
         "@rollup/plugin-commonjs": "^28.0.6",
         "@rollup/plugin-node-resolve": "^16.0.1",
         "@rollup/plugin-typescript": "^12.1.4",
