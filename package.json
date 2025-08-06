@@ -1,0 +1,65 @@
+{
+    "name": "@cristianmpx/tailwind-custom-select",
+    "version": "1.0.0",
+    "description": "A implementation of react-custom-select styled with Tailwind Css",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build",
+        "build": "rollup -c",
+        "deploy": "gh-pages -d storybook-static"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "keywords": [
+        "react",
+        "select",
+        "tailwind",
+        "component",
+        "dropdown"
+    ],
+    "author": "Cristian Marin",
+    "license": "MIT",
+    "dependencies": {
+        "@cristianmpx/react-custom-select": "^1.0.17",
+        "gh-pages": "^6.3.0",
+        "tailwind-custom-select": "file:tailwind-custom-select-1.0.0.tgz"
+    },
+    "peerDependencies": {
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^28.0.6",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "@rollup/plugin-typescript": "^12.1.4",
+        "@storybook/addon-postcss": "^2.0.0",
+        "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+        "@storybook/react": "^9.1.1",
+        "@storybook/react-webpack5": "^9.1.1",
+        "@tailwindcss/postcss": "^4.1.11",
+        "@types/node": "^24.2.0",
+        "@types/react": "^19.1.9",
+        "@types/react-dom": "^19.1.7",
+        "autoprefixer": "^10.4.21",
+        "css-loader": "^7.1.2",
+        "path": "^0.12.7",
+        "postcss": "^8.5.6",
+        "postcss-loader": "^8.1.1",
+        "rollup": "^4.46.2",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-postcss": "^4.0.2",
+        "save-dev": "^0.0.1-security",
+        "storybook": "^9.1.1",
+        "style-loader": "^4.0.0",
+        "tailwindcss": "^4.1.11",
+        "tsx": "^4.20.3",
+        "typescript": "^5.9.2",
+        "url": "^0.11.4"
+    }
+}
