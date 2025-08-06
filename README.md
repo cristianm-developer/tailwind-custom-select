@@ -13,7 +13,7 @@ This is an extended version of the original [`@cristianmpx/react-custom-select`]
 Install the package with npm:
 
 ```bash
-npm install @cristianmpx/react-custom-select
+npm install @cristianmpx/tailwind-custom-select
 ```
 
 ## Usage
@@ -44,24 +44,17 @@ export const Basic: Story = {
         <Option>Apple2</Option>
         <Option>Apple3</Option>
         <Option>Apple4</Option>
-        <Option>Apple5</Option>
-        <Option>Apple6</Option>
-        <Option>Apple7</Option>
-        <Option>Apple8</Option>
-        <Option>Apple9</Option>
-        <Option>Apple10</Option>
-        <Option>Apple11</Option>
-        <Option>Apple12</Option>
-        <Option>Apple13</Option>
-        <Option>Apple14</Option>
-        <Option>Apple15</Option>
-        <Option>Apple16</Option>
-        <Option>Apple17</Option>
+
       </TailwindSelect>
     );
   },
 };
 ```
+
+## Preview
+
+You can see a live preview of this component and its behavior at:  
+[https://cristianm-developer.github.io/tailwind-custom-select/](https://cristianm-developer.github.io/tailwind-custom-select/)
 
 ## Customizing Appearance
 

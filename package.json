@@ -1,6 +1,6 @@
 {
     "name": "@cristianmpx/tailwind-custom-select",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A implementation of react-custom-select styled with Tailwind Css",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -23,6 +23,10 @@
         "component",
         "dropdown"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cristianm-developer/tailwind-custom-select"
+    },
     "author": "Cristian Marin",
     "license": "MIT",
     "dependencies": {
